@@ -49,10 +49,10 @@ Subsequently the output of `tree .` is shown for a rough overview of the reposit
 .
 ├── README.md
 ├── compare.py
-├── data
+├── data (automatically created)
 │   └── raster
 ├── makefile
-├── osrm
+├── osrm (automatically created)
 │   ├── car
 │   └── electric
 ├── profiles
@@ -67,15 +67,15 @@ Subsequently the output of `tree .` is shown for a rough overview of the reposit
 
 The following table summarizes the purpose of each file/folder
 
-| File/folder               | Purpose       |
-|:-------------------------:|:-------------:|
-| README.md                 | Readme for starting and explanation |
+| File/folder               | Purpose                                                                                    |
+|:-------------------------:|:------------------------------------------------------------------------------------------:|
+| README.md                 | Readme for starting and explanation                                                        |
 | compare.py                | Command line tool for comparing the regular routing with the routing for electric vehicles |
-| data/raster               | Working directory for raster data |
-| makefile                  | For a simple startup of the routing engines |
-| osrm/car                  | Working directory for the car routing engine |
-| osrm/electric             | Working directory for the electric car routing engine |
-| profiles/car.lua          | Lua script defining the car profile |
-| profiles/electric.lua     | Lua script defining the electric car profile |
-| requirements.txt          | For installing the required python libraries |
-| scripts/*                 | Helper scripts for starting the engines and loading the data |
+| data/raster               | Working directory for raster data                                                          |
+| makefile                  | For a simple startup of the routing engines                                                |
+| osrm/car                  | Working directory for the car routing engine                                               |
+| osrm/electric             | Working directory for the electric car routing engine                                      |
+| profiles/car.lua          | Lua script defining the car profile                                                        |
+| profiles/electric.lua     | Lua script defining the electric car profile                                               |
+| requirements.txt          | For installing the required python libraries                                               |
+| scripts/*                 | Helper scripts for starting the engines and loading the data                               |
