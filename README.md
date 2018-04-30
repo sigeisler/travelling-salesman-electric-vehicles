@@ -36,7 +36,7 @@ From this point you can call the command line tool help with:
 
 A possible execution of the command line tool could look like:
 
-`python compare.py --simplified True 13.409595 52.520241 13.453975 52.549387 13.381804 52.552794`
+`python compare.py --simplified True 9.196618 48.767587 9.173770 48.762977 9.162890 48.768612 9.160714 48.778650 9.166465 48.782849`
 
 All further necessary information is given by the help of the command line tool.
 
