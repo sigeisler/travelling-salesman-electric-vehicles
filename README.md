@@ -10,7 +10,7 @@ The whole software was developed and tested on macOS Sierra (10.12.6), but shoul
 
 ## Getting Started
 
-It is necessary to extract elevation data as well as data about the road network. OSRM supports map extracts from [OSM](https://www.openstreetmap.org). 
+It is necessary to extract elevation data from [usgs.gov](https://dds.cr.usgs.gov/srtm/) as well as data about the road network. OSRM supports map extracts from [OSM](https://www.openstreetmap.org). 
 
 ### Starting the Routing Engines
 

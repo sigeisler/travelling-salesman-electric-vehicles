@@ -536,13 +536,10 @@ function process_segment (profile, segment)
 
   if sourceElevation ~= -1 and targetElevation ~= -1 then
     local slope = (targetElevation - sourceElevation) / segment.distance
-    io.write("evaluating segment: " .. sourceElevation .. " " .. targetElevation  .. " " .. slope .. "\n")
     if slope > 0.03 then
-      io.write("weight was: " .. segment.weight .. " and now is " .. segment.weight * profile.slope_up_factor .. "\n")
       segment.weight = segment.weight * profile.slope_up_factor
       segment.duration = segment.duration * profile.slope_up_factor
     elseif slope < -0.03 then
-      io.write("weight was: " .. segment.weight .. " and now is " .. segment.weight * profile.slope_down_factor .. "\n")
       segment.weight = segment.weight * profile.slope_down_factor
       segment.duration = segment.duration * profile.slope_down_factor
     end
