@@ -26,7 +26,7 @@ Two routing engines will per default be available on `localhost:5000` and `local
 
 ### Command Line Comparison Tool
 
-For simplicity we will also provide a command line tool for comparing the results of both routing engines. It will execute both routings and subsequently open a browser window for comparing the two routes. For installing the required packages please execute:
+For simplicity we will also provide a command line tool for comparing the results of both routing engines. It will execute both routings and subsequently open a browser window/tab for comparing the two routes. For installing the required packages please execute:
 
 `pip install -r requirements.txt`
 

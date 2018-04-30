@@ -58,7 +58,7 @@ load-postgis: extract-elevation
 fetch-osm:
 	@echo "Fetching osm map..."
 	@mkdir -p osrm
-	$([ ! -f osrm/$(OSM_FILE).osm.pbf ] && wget -P osrm $(OSM_URL)$(OSM_FILE).osm.pbf)
+	@sh scripts/fetch-osm.sh $(OSM_URL) $(OSM_FILE)
 
 # starts the routing engine for the car profile
 routing-car: start-postgis fetch-osm 
