@@ -45,10 +45,12 @@ All further necessary information is given by the help of the command line tool.
 The routing profile includes way more information than just the distance. The basis of this routing profile was given by [OSRM/Profiles](https://github.com/Project-OSRM/osrm-backend/blob/master/docs/profiles.md) and considers many factors such as road type, road surface, turing conditions, traffic light and many more which will result in a weight for each node of the graph behind. The electric profile additionally queries a Postgres/Postgis database for extracting height information and calculating the slope. If the slope exceeds the defines threshold in the task description a factor is applied on the weight. Therefore this project implements a more realistic routing than in the task description. 
 
 The specific implementation of the electric car profile can be found in the file `profiles/electric.lua` in the lines 493 to 550. However, the estimated consumption is calculated by the command line tool and will be displayed on the standard out like:
-> ------------ Comparison of routing profiles ------------
-> Power Consumption Car profile:                  15.49 kw
-> Power Consumption Electric Car profile:         15.49 kw
-> --------------------------------------------------------
+<pre>
+------------ Comparison of routing profiles ------------
+Power Consumption Car profile:                  15.49 kw
+Power Consumption Electric Car profile:         15.49 kw
+--------------------------------------------------------
+</pre>
 
 For a good comparison of the 'regular route' with the optimized routes for electric vehicles the comparison tool will open the resulting routes in [geosjon.io](geosjon.io) such as:
 ![alt text](./docs/assets/geojsonio.png)
