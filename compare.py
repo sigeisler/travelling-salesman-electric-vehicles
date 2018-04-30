@@ -10,7 +10,7 @@ import geojsonio
 
 
 PARSER = argparse.ArgumentParser(description='Command line tool for comparing both routing engines.'
-                                 + ' For using this tool you have to make sure that'
+                                 + ' For using this tool you have to make sure that '
                                  + 'the routing engines are running!')
 PARSER.add_argument('coordinates',
                     type=float,
@@ -54,7 +54,7 @@ PARSER.add_argument('--simplified',
 PARSER.add_argument('--trip',
                     type=bool,
                     default=True,
-                    help='If set to true the TSP problem will be solved'
+                    help='If set to true the TSP problem will be solved '
                     + 'otherwise just the shortest path will be returned')
 
 COLOR_CAR = "#ebae10"
