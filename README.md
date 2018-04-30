@@ -58,6 +58,7 @@ The orange line reflects the car profile and the blue line the route for electri
 
 Subsequently the output of `tree .` is shown for a rough overview of the repository.
 
+<pre>
 .
 ├── README.md
 ├── compare.py
@@ -76,6 +77,7 @@ Subsequently the output of `tree .` is shown for a rough overview of the reposit
     ├── fetch-srtm.sh
     ├── startup-postgis.sh
     └── startup-routing.sh
+</pre>
 
 The following table summarizes the purpose of each file/folder
 
