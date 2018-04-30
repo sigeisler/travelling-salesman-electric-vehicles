@@ -20,6 +20,8 @@ As make offers the option to override environment variables in the makefile you 
 
 `make start`
 
+Hint: The whole process took up to 4 hours for the default parameters due to the download and elevation extraction process.
+
 Two routing engines will per default be available on `localhost:5000` and `localhost:6000`. The first has the standard car profile activated and the second the electric cars profile. The full API can be checked in the [official documentation](http://project-osrm.org/docs/v5.5.1/api/). 
 
 ### Command Line Comparison Tool
