@@ -1,6 +1,8 @@
-.DS_Store
-.zip
-.hgt
+*.DS_Store
+*.zip
+*.hgt
 *.osrm.*
-.pbf
-.vscode
+*.pbf
+*.vscode
+osrm
+data
