@@ -2,4 +2,3 @@ geojsonio
 argparse
 requests
 geojson
-json
